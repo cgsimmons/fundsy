@@ -1,0 +1,6 @@
+<h1>Welcom to Fundsy</h1>
+
+<% @campaigns.each do |campaign| %>
+  <%= link_to campaign.title, campaign %>
+  <hr>
+<% end %>
